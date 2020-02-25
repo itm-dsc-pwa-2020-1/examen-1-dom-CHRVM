@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    margin: 0px; 
+    padding: 0px;
+    font-family: Roboto;
+    color: #ffffff;
+    height: 1px;
+   }
+   #container{
+       width: 80%;
+   }
+
+   @font-face{
+    font-family: "Roboto";
+    src: url(../font/Roboto-Regular.ttf)format("truetype");
+    }
+
+    a:link , a:visited { text-decoration:none; color: #ffffff;}
+    a:hover { color: #c01515;}
+    ul.enlaces_1ul li { display: inline-block ; padding-right: 40px; left: 383px; font-size: 13px; position: relative;}
+    ul.enlaces_2ul li { display: inline-block ; padding-right: 40px; left: 415px; font-size: 13px; position: relative;}
+    ul.fotosul li { display: inline-block ; padding-right: 1px; }
+    ul.info li { display: inline-block ; padding-right: 20px; position: relative; top: 6px; }
+    h4 { position: relative; bottom: 14px; font-size: 15px;}
+
+    .up .logo{
+        position: relative;
+        left: 609px;
+        bottom: 70px;
+        padding-bottom: 10px;
+    }
+    .up .enlaces_1{
+        position: relative;
+        bottom: 170px;
+        background-color: #262f72 ;
+    }
+    .up .enlaces_2{
+        position: relative;
+        bottom: 186px;
+        background-color: #c01515 ;
+    }
+
+    .middle{
+        position: relative;
+        bottom: 202px;
+        right:5px;
+    }
+
+    .down{
+        position: relative;
+        bottom: 222px;
+        background-color: #b92222;
+        padding-bottom: 100%;
+    }
+
+    button { 
+        margin-left: 20px; 
+        margin-right: 20px;
+        margin-bottom: 10px; 
+        margin-top: 15px; 
+        width: 250px; 
+        height: 80px; 
+        font-family: Roboto;
+        font-size: 20px;
+        border: none;
+        border-width: 3px;
+        border-radius:35px;
+        background-color: #EEB400;
+        }
+        button:hover { 
+        background-color:#EEB400 !important; 
+        transition: all .3s ease-in;
+        transform: translateY(-5px);
+        }
